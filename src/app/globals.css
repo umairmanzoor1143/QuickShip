@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: black;
+  height: 100vh;
+  color: white;
+}
+.container{
+  max-width: 1440px;
+}
+
+.liner-gradient{
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
+}
+.liner-gradient-2{
+  background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  mix-blend-mode: normal;
+  border-radius: 16px;
+}
+.btn-style{
+  min-width: 275px;
+  height: 62px;
+  padding: 13px 24px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lines-img{
+  &:before{
+    content: url("../../public/images/icons/lines-zigzag.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+}
+.icon-one{
+  &:before{
+    content: url("../../public/images/icons/one-icon.svg");
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &:after{
+    content: url("../../public/images/icons/arrow-right.svg");
+    position: absolute;
+    top: -20px;
+    right: -28px;
+  }
+}
+.icon-two{
+  &:before{
+    content: url("../../public/images/icons/two-icon.svg");
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &:after{
+    content: url("../../public/images/icons/arrow-right.svg");
+    position: absolute;
+    top: -20px;
+    right: -28px;
+  }
+}
+.icon-three{
+  &:before{
+    content: url("../../public/images/icons/three-icon.svg");
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
