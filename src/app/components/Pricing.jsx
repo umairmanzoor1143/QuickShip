@@ -10,11 +10,11 @@ import Lock from "../../../public/images/icons/lock-icon.svg";
 
 export default function Pricing() {
     return (
-        <main className="container mx-auto text-center pt-[96px] mb-[40px]">
+        <main className="container small mx-auto text-center pt-[96px] mb-[40px]">
             <p className="text-[15px] leading-[24px] font-normal text-[#ffffff80] mb-2 ">PRICING</p>
             <h1 className="text-[47px] leading-[66px] font-bold mb-[64px]">Ready to supafast your conversions?</h1>
             <div className="flex items-center justify-center gap-6 mb-6">
-                <div className="bg-[#131313] w-[400px] rounded-[24px] text-left px-10 pt-10 pb-14">
+                <div className="bg-[#131313] w-full rounded-[24px] text-left px-10 pt-10 pb-14">
                     <h3 className="text-[18px] leading-[32px] font-medium mb-[20px]">One-off</h3>
                     <h2 className="text-[34px] leading-[40px] font-extrabold mb-[6px]">$2497</h2>
                     <p className="text-[12px] leading-normal mb-[22px] text-[#ffffff80]">Launch your dream site in 5 days!</p>
@@ -48,7 +48,7 @@ export default function Pricing() {
                         </ul>
                     </div>
                 </div>
-                <div className="bg-[#131313] w-[400px] rounded-[24px] text-left px-10 pt-10 pb-14">
+                <div className="bg-[#131313] w-full rounded-[24px] text-left px-10 pt-10 pb-14">
                     <div className="flex items-center justify-between">
                         <h3 className="text-[18px] leading-[32px] font-medium mb-[20px]">Retainer</h3>
                         <p className="w-[84px] h-[24px] rounded-full bg-white flex items-center justify-center text-[11px] leading-[16px] font-bold text-black mb-[20px]">BEST VALUE</p>

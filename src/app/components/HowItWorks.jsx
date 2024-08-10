@@ -8,6 +8,8 @@ import Figma from "../../../public/images/icons/figma-icon.svg";
 import Tools from "@/app/components/Tools";
 import Pricing from "@/app/components/Pricing";
 import Features from "@/app/components/Features";
+import Reviews from "@/app/components/Reviews";
+import FAQ from "@/app/components/FAQ";
 
 
 export default function HowItWorks(){
@@ -54,6 +56,8 @@ export default function HowItWorks(){
             <Features/>
             <Tools/>
             <Pricing/>
+            <Reviews/>
+            <FAQ/>
         </main>
     )
 }

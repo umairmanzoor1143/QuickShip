@@ -5,7 +5,8 @@ import Challenges from "@/app/components/Challenges";
 import Solution from "@/app/components/Solution";
 import CreativeWork from "@/app/components/CreativeWork";
 import HowItWorks from "@/app/components/HowItWorks";
-import Tools from "@/app/components/Tools";
+import SmashButton from "@/app/components/SmashButton";
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
         <Solution/>
         <CreativeWork/>
         <HowItWorks/>
-        {/*<Tools/>*/}
+        <SmashButton/>
+        <Footer/>
     </main>
   );
 }

@@ -8,10 +8,6 @@ import Logo3 from "../../../public/images/icons/banner-logo-3.svg"
 import Logo4 from "../../../public/images/icons/banner-logo-4.svg"
 import Logo5 from "../../../public/images/icons/banner-logo-5.svg"
 import Logo6 from "../../../public/images/icons/banner-logo-6.svg"
-import WorkImg from "../../../public/images/icons/work-img-1.png"
-import WorkImg1 from "../../../public/images/icons/work-img-2.png"
-import WorkImg2 from "../../../public/images/icons/work-img-3.png"
-
 export default function Banner(){
     return (
         <main className="container mx-auto bg-black text-center pt-[68px] pb-[20px] mb-[120px]">
@@ -24,7 +20,7 @@ export default function Banner(){
             </div>
             <h1 className="text-[79px] leading-[100px] font-bold mb-[16px]">Web Design that <br/> double leads.</h1>
             <p className="text-[20px] leading-[28px] font-light text-[#A3A3A3] mb-[32px] ">Design, copy, and development engineered to <span className="text-white font-medium">turn browsers into <br/> buyers </span> and <span className="text-white font-medium">drive sales on autopilot.</span> </p>
-            <button className="liner-gradient !w-[290px] !h-[64px] mx-auto btn-style mb-[16px]">
+            <button className="liner-gradient !min-w-[290px] !h-[64px] mx-auto btn-style mb-[16px]">
                 <Image src={GirlImage} alt={'image'}/>
                 Book a Call with Namya
             </button>

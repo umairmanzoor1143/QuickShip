@@ -23,6 +23,9 @@ body {
 }
 .container{
   max-width: 1440px;
+  &.small{
+    max-width: 840px;
+  }
 }
 
 .liner-gradient{
@@ -31,7 +34,12 @@ body {
   box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
 }
 .liner-gradient-2{
-  background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.3) 100%);
+  mix-blend-mode: normal;
+  border-radius: 16px;
+}
+.liner-gradient-3{
+  background: linear-gradient(0deg, #131313 0%, rgba(18, 18, 18, 0) 100%);
   mix-blend-mode: normal;
   border-radius: 16px;
 }
@@ -97,6 +105,16 @@ body {
   }
 }
 
+h1{
+  @media screen and (max-width: 1199px) and (min-width: 992px) {
+    font-size: 48px !important;
+    line-height: 58px !important;
+  }
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    font-size: 32px !important;
+    line-height: 42px !important;
+  }
+}
 
 @layer utilities {
   .text-balance {
