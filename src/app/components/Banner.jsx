@@ -11,11 +11,11 @@ import Logo6 from "../../../public/images/icons/banner-logo-6.svg"
 export default function Banner(){
     return (
         <main className="container mx-auto bg-black text-center pt-[68px] pb-[20px] mb-[120px]">
-            <div className="flex items-center justify-center gap-[6px] mb-[8px]">
+            <div className="flex items-center justify-center gap-[6px] mb-[8px] max-sm:flex-col">
                 <Image src={Profile} alt={'image'}/>
                 <div>
-                    <Image className="mb-[4px]" src={Stars} alt={'stars'}/>
-                    <p className="text-[16px] leading-[20px] text-white">loved by founders worldwide</p>
+                    <Image className="mb-[4px] mx-auto" src={Stars} alt={'stars'}/>
+                    <p className="text-[16px] leading-[20px] text-white text-left">loved by founders worldwide</p>
                 </div>
             </div>
             <h1 className="text-[79px] leading-[100px] font-bold mb-[16px]">Web Design that <br/> double leads.</h1>
@@ -25,7 +25,7 @@ export default function Banner(){
                 Book a Call with Namya
             </button>
             <p className="text-[13px] italic leading-normal text-[#A3A3A3] mb-[32px]">No obligation. No subscription required.</p>
-            <div className="flex items-center justify-center gap-[28px]">
+            <div className="flex items-center justify-center gap-[28px] flex-wrap max-sm:gap-2">
                 <Image src={Logo1} alt={'logo'}/>
                 <Image src={Logo2} alt={'logo'}/>
                 <Image src={Logo3} alt={'logo'}/>

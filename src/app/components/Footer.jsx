@@ -7,7 +7,7 @@ import AIcon from "../../../public/images/icons/a-icon.svg";
 export default function Footer(){
 
     return(
-        <main className="container mx-auto text-center pt-10 px-[30px] pb-[90px] border-t border-[#ffffff1a]">
+        <main className="container mx-auto text-center pt-10 px-[30px] pb-[90px] border-t border-[#ffffff1a] max-sm:pb-10">
             <div className="flex items-center justify-between">
                 <div>
                     <Image className={'mb-2'} src={FooterLogo} alt={'img'}/>

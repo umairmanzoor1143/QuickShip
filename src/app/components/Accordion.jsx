@@ -15,7 +15,7 @@ export default function Accordion({title, content}){
                     onClick={toggleAccordion}
                     className="w-full flex justify-between items-center mb-[14px] focus:outline-none"
                 >
-                    <h2 className="text-lg font-semibold">{title}</h2>
+                    <h2 className="text-lg font-semibold text-left">{title}</h2>
                     <span className="text-[28px]">{isOpen ? '-' : '+'}</span>
                 </button>
                 {isOpen && (

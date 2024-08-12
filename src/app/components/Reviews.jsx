@@ -12,8 +12,8 @@ import Profile4 from "../../../public/images/profile-four.png";
 export default function Reviews() {
     return (
         <main className="w-full mx-auto text-center pt-[96px] mb-[110px]">
-            <h1 className="flex items-center justify-center gap-4 text-[47px] leading-[66px] font-bold mb-[48px]">Loved <Image src={Heart} alt={'img'}/> by businesses worldwide</h1>
-            <div className="flex items-start justify-center gap-3">
+            <h1 className="flex items-center justify-center gap-4 text-[47px] leading-[66px] font-bold mb-[48px] max-sm:flex-wrap">Loved <Image src={Heart} alt={'img'}/> by businesses worldwide</h1>
+            <div className="flex items-start justify-center gap-3 max-sm:flex-col">
                 <div className="flex items-center flex-col gap-3">
                     <div className="w-full h-full relative">
                         <Image className="rounded-[8px] w-full" src={Profile1} alt={'img'}/>

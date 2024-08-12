@@ -10,7 +10,7 @@ export default function Tools(){
     return(
         <main className="container mx-auto text-center">
             <p className="text-[15px] leading-[24px] font-normal text-[#ffffff80] mb-2">TOOLS</p>
-            <div className="flex items-center justify-center gap-[60px]">
+            <div className="flex items-center justify-center gap-[60px] max-md:flex-wrap max-sm:gap-4">
                 <Image src={Figma} alt={'img'}/>
                 <Image src={NIcon} alt={'img'}/>
                 <Image src={Waves} alt={'img'}/>

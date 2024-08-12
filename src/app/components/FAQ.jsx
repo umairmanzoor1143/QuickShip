@@ -17,7 +17,7 @@ export default function FAQ({title, content}){
     return(
         <main className="container mx-auto text-center">
             <h1 className="text-[47px] leading-[66px] font-bold mb-[60px]">Questions? Answers.</h1>
-            <div className="flex items-center justify-between gap-20">
+            <div className="flex items-center justify-between gap-20 max-md:flex-col max-lg:gap-0">
                 <div className="w-full">
                     {accordions.map((accordion, index) => (
                         <Accordion
@@ -27,10 +27,10 @@ export default function FAQ({title, content}){
                         />
                     ))}
                 </div>
-                <div className="bg-faq-img text-center py-10 px-[76px]">
+                <div className="bg-faq-img text-center py-10 px-[76px] max-lg:px-5 max-lg:py-0">
                     <Image className={'mx-auto mb-5'} src={Girl} alt={'girl'}/>
                     <h3 className={'mb-5'}>Have more questions? Book a FREE intro call.</h3>
-                    <button className="btn-style ">Book a Call</button>
+                    <button className="btn-style mx-auto">Book a Call</button>
                 </div>
             </div>
         </main>

@@ -8,7 +8,7 @@ export default function CreativeWork(){
     return(
         <main className="container mx-auto ">
             <h1 className="text-[47px] text-center leading-[66px] font-bold mb-[20px]">Creative work that drives crazy results <br/> for our clients.</h1>
-            <div className="flex items-center justify-center gap-[24px] mb-[64px]">
+            <div className="flex items-center justify-center gap-[24px] mb-[64px] w-full overflow-hidden">
                 <Image className="w-full" src={Creative1} alt={'img'}/>
                 <Image className="w-full" src={Creative2} alt={'img'}/>
                 <Image className="w-full" src={Creative3} alt={'img'}/>

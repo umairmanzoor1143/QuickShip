@@ -13,7 +13,7 @@ export default function Pricing() {
         <main className="container small mx-auto text-center pt-[96px] mb-[40px]">
             <p className="text-[15px] leading-[24px] font-normal text-[#ffffff80] mb-2 ">PRICING</p>
             <h1 className="text-[47px] leading-[66px] font-bold mb-[64px]">Ready to supafast your conversions?</h1>
-            <div className="flex items-center justify-center gap-6 mb-6">
+            <div className="flex items-start justify-center gap-6 mb-6 max-sm:flex-col">
                 <div className="bg-[#131313] w-full rounded-[24px] text-left px-10 pt-10 pb-14">
                     <h3 className="text-[18px] leading-[32px] font-medium mb-[20px]">One-off</h3>
                     <h2 className="text-[34px] leading-[40px] font-extrabold mb-[6px]">$2497</h2>
